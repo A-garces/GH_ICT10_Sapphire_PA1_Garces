@@ -5,7 +5,7 @@ def converting(e):
     ftem = float(document.getElementById('tem').value)
     
     ctem = (ftem - 32) * 5/9
-    final = round(ctem, 0)
+    final = round(ctem, 1)
 
     output = document.getElementById("output")
     output.innerHTML = ""
@@ -22,4 +22,5 @@ def converting(e):
     else:
 
         display('Status: Normal, continue with a healthy diet.', target="fever", append="False")
+
 
