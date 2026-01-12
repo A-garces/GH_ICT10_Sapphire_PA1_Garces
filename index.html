@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.8.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2025.8.1/core.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Working with Tuples</title>
+</head>
+<body>
+    
+<div class="container">
+
+    <h1>Fahrenheit to Celsius Converter</h1>
+
+    <h4>Enter your Temperature in Fahrenheit:</h4>
+
+    <div class="row g-2">
+    <div class="col-md">
+        <div class="form-floating">
+        <input type="number" class="form-control" id="tem" placeholder="name@example.com" value="">
+        <label for="tem">Temperature</label>
+        </div>
+    </div>
+
+        <button type="button" class="btn btn-dark" py-click="converting">Confirm</button>
+</div>
+
+    <h3><div class="gradecontainer" id="fever"></div></h3>
+    <py-script src="main.py"></py-script>
+</body>
+</html>

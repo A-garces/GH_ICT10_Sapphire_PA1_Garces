@@ -1,0 +1,30 @@
+body {
+    color: #000000;
+    margin: auto;
+    text-align: center;
+
+}
+
+.container {
+   max-width: 500px;
+    padding: 1%;
+    border-radius: 50px;
+    margin-top: 5%;
+    outline: 3px solid rgb(0, 0, 0);
+}
+
+.namecontainer {
+    margin: 2%;
+    padding: 2%;
+    outline: 2px solid blue;
+    border-radius: 10px;
+    background-color: rgb(209, 209, 255);
+}
+
+.gradecontainer {
+    margin: 2%;
+    padding: 2%;
+    outline: 2px solid rgb(61, 61, 61);
+    border-radius: 10px;
+    background-color: rgb(124, 124, 124);
+}
