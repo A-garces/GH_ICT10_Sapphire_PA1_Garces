@@ -13,7 +13,7 @@ def converting(e):
     display(f'Fahrenheit: {ftem}', target="fever", append="False")
     display(f'Celsius: {final}', target="fever", append="False")
 
-    if ctem >= 37.8:
+    if ctem >= 37:
         display('You have a fever, please consult a doctor.', target="fever", append="False")
 
     elif ctem <= 10:
@@ -22,3 +22,4 @@ def converting(e):
     else:
 
         display('Status: Normal, continue with a healthy diet.', target="fever", append="False")
+
